@@ -1,0 +1,27 @@
+.table {
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+}
+.table__tr, .table__th {
+    padding: 10px;
+    background-color: #eee;
+}
+.table__tr:hover {
+    background-color: #ccc;
+    cursor: default;
+}
+.table__td {
+    padding: 10px 15px;
+    vertical-align: top;
+    font-size: 13px;
+}
+.table__td:not(:last-child) {
+    text-align: left;
+}
+.table__td:first-child {
+  white-space: nowrap;
+}
+.table__td--italic {
+    font-style: italic;
+}
